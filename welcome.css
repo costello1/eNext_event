@@ -30,3 +30,10 @@ button {
     font-size: 20px;
     font-style: normal;
 }
+/* Powered by text */
+.powered-by {
+    color: #e60000; /* Rosso */
+    font-size: 0.8em;
+    text-align: center;
+    margin-top: 20px;
+}

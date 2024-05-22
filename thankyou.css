@@ -27,3 +27,10 @@ p{
     color: #ffffff;
     font-size: 20px;
 }
+/* Powered by text */
+.powered-by {
+    color: #ffffff; /* Rosso */
+    font-size: 0.8em;
+    text-align: center;
+    margin-top: 20px;
+}
