@@ -49,6 +49,13 @@ h1.question {
     color: #1C2B39; /* Red */
     margin-top: 10px;
 }
+h1.question-1 {
+    display: flex;
+    font-size: 1.85em;
+    margin-bottom: 20px;
+    color: #1C2B39; /* Red */
+    margin-top: 10px;
+}
 
 /* Answer labels */
 label {
