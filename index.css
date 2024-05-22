@@ -45,14 +45,15 @@ h1.question-title {
     margin-bottom: 20px;
 }
 h1.question {
-    font-size: 1.85em;
+    display: flex;
+    font-size: 1.60em;
     margin-bottom: 10px;
     color: #1C2B39; /* Red */
     margin-top: 20px;
 }
 h1.question-1 {
     display: flex;
-    font-size: 1.70em;
+    font-size: 1.60em;
     margin-bottom: 10px;
     color: #1C2B39; /* Red */
     margin-top: 20px;
