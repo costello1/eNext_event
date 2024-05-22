@@ -41,17 +41,20 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     clearExcelButton.addEventListener('click', async () => {
-        const response = await fetch(`https://adminapi-7524dbiyoq-uc.a.run.app/clear-excel`, {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            }
-        });
+        const confirmation = confirm('Are you sure you want to clear the Excel file? This action cannot be undone.');
+        if (confirmation) {
+            const response = await fetch(`https://adminapi-7524dbiyoq-uc.a.run.app/clear-excel`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            });
 
-        if (response.ok) {
-            alert('Excel file has been cleared.');
-        } else {
-            alert('Error clearing the Excel file.');
+            if (response.ok) {
+                alert('Excel file has been cleared.');
+            } else {
+                alert('Error clearing the Excel file.');
+            }
         }
     });
 });
