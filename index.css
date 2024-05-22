@@ -15,7 +15,7 @@ body, html {
     background-color: #fff;
     font-family: Arial, sans-serif;
     color: #333;
-    background-color: #e60000;
+    background-color: #1C2B39;
 }
 
 /* Main container */
@@ -38,17 +38,27 @@ body, html {
 }
 
 /* Question title */
+h1.question-title {
+    font-size: 2.5em;
+    margin-bottom: 2px;
+    color: #e60000; /* Red */
+}
 h1.question {
     font-size: 2em;
     margin-bottom: 20px;
-    color: #e60000; /* Red */
+    color: #1C2B39; /* Red */
+    margin-top: 10px;
 }
 
 /* Answer labels */
 label {
-    display: block;
-    margin: 10px 0;
+    display: flex;
+    margin: 10px 20px;
     font-size: 1.1em;
+    
+}
+input{
+    margin-right: 5px;
 }
 
 /* Small text style */
