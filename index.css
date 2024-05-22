@@ -42,6 +42,7 @@ h1.question-title {
     font-size: 2.5em;
     margin-bottom: 2px;
     color: #e60000; /* Red */
+    margin-bottom: 20px;
 }
 h1.question {
     font-size: 1.75em;
