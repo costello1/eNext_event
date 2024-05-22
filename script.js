@@ -54,12 +54,12 @@ document.addEventListener('DOMContentLoaded', () => {
         if (hasSubmitted) {
             window.location.href = "thankyou.html";
         } else {
-            if (selectedAnswer1 && selectedAnswer2 && answer3 && answer4) {
+            if (selectedAnswer1 && selectedAnswer2) {
                 const answers = {
                     answer1: selectedAnswer1.value,
                     answer2: selectedAnswer2.value,
-                    answer3: answer3,
-                    answer4: answer4
+                    answer3: answer3 || "",
+                    answer4: answer4 || ""
                 };
 
                 // Save the answers in the backend
